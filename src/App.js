@@ -19,7 +19,7 @@ import Payment from "./Components/Payment";
 import Orders from "./Components/Orders"
 
 
-const promise  = loadStripe( );
+const promise  = loadStripe("pk_test_51L1FLaLPOxTcY9J5pzsagXZn1RENGdLn36FSXaXvz2uYiEISjcVMlg6yEPq72VqUx5uW78MZM716mx9KoudoLHKE00hbl7Wj7i" );
 
 const App = () => {
 
