@@ -67,6 +67,52 @@ const Products = () => {
       price={179.99}
       image="https://m.media-amazon.com/images/I/71v725lxBtL._AC_SY879_.jpg" alt=""/>
     </div>
+    <div className="products_row">
+      <Product 
+      id="c1"
+      title="Amazon Basics 12-Cup Digital Coffee Maker with Reusable Filter, Black and Stainless Steel"
+      ratings={5}
+      price={290.99}
+      image="https://m.media-amazon.com/images/I/81SFEaWTVxL._AC_SX679_.jpg" alt=""
+       />
+
+      <Product 
+      id="bc2"
+      title="JBL - GO3 Portable Waterproof Wireless Speaker - Black (Renewed)"
+      ratings={4}
+      price={39.99}
+      image="https://m.media-amazon.com/images/I/81nKxLtbQKL._AC_SX466_.jpg" alt=""/>
+
+      <Product 
+      id="c3"
+      title="Amazon Essentials Men's Regular-fit Short-Sleeve Poplin Shirt"
+      ratings={5}
+      price={29.99}
+      image="https://m.media-amazon.com/images/I/91WAtwQ+55L._AC_UX466_.jpg" alt=""/>
+    </div>
+    <div className="products_row">
+      <Product 
+      id="d1"
+      title="AmazonCommercial Microwave Oven with Membrane Control, Stainless Steel, 1800-Watts, 0.6 Cubic Feet"
+      ratings={4}
+      price={129.99}
+      image="https://m.media-amazon.com/images/I/81Mlelo7IZL._SX466_.jpg" alt=""
+       />
+
+      <Product 
+      id="d2"
+      title="Amazon.com Gift Card in a Mini Envelope"
+      ratings={4}
+      price={9.99}
+      image="https://m.media-amazon.com/images/I/81sJe21t0JL._SX522_.jpg" alt=""/>
+
+      <Product 
+      id="d31678"
+      title="Amazon Essentials Women's Studio Relaxed-Fit Lightweight Crewneck T-Shirt, Multipacks"
+      ratings={3}
+      price={19.99}
+      image="https://m.media-amazon.com/images/I/71B-GnknMrS._AC_UY500_.jpg" alt=""/>
+    </div>
     </>
   )
 }
