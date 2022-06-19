@@ -113,6 +113,35 @@ const Products = () => {
       price={19.99}
       image="https://m.media-amazon.com/images/I/71B-GnknMrS._AC_UY500_.jpg" alt=""/>
     </div>
+    <div className="products_row">
+      <Product 
+      id="b1"
+      title="Razer Kraken V3 HyperSense Wired USB Gaming Headset w/Haptic Technology:
+       Triforce Titanium 50mm Drivers - THX Spatial Audio - Hybrid Fabric
+       & Leatherette Memory Foam Cushions - Detachable Mic"
+      ratings={4}
+      price={129.99}
+      image="https://m.media-amazon.com/images/I/61hJqr7P+iL._AC_SX425_.jpg" alt=""
+       />
+
+      <Product 
+      id="b13578909"
+      title="Razer Seiren V2 X USB Microphone: 25mm Condenser Microphone - 
+      Supercardioid Pickup Pattern - Digital Analogue Limiter -
+       Mic Monitoring/Gain & Mute Buttons - Built-in Shock Absorber"
+      ratings={4}
+      price={99.99}
+      image="https://m.media-amazon.com/images/I/61qCIrXKglL._AC_SX425_.jpg" alt=""/>
+
+      <Product 
+      id="b1678"
+      title="PatioMage Gaming Chair Ergonomic Office Chair Headrest Lumbar 
+      Support Comfortable High Back Adjustable Reclining Computer Chair with Footrest 
+      Desk Chair PU Leather Swivel Chair"
+      ratings={5}
+      price={179.99}
+      image="https://m.media-amazon.com/images/I/71v725lxBtL._AC_SY879_.jpg" alt=""/>
+    </div>
     </>
   )
 }
